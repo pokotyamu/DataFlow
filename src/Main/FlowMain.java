@@ -22,7 +22,7 @@ public class FlowMain {
         DBController dbcon = new DBController();
         for(File f : fl.getFiles()){
             dbcon.setDB(f);
-
+            
             dbcon.createAllTable();
             dbcon.registallDB(dbcon.getST_ID(f), dbcon.getClass_ID(f),dbcon.getSUBMITION(f));
         }
