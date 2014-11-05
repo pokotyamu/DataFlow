@@ -3,17 +3,8 @@ package Main;
 
 import DBCreater.DBController;
 import DBCreater.FileList;
-import DBGetter.DBSelector;
-import DBGetter.DBinfo;
-import DBGetter.DataSelector;
-import DBGetter.DataSubSelector;
 import DataFlow.*;
-import DataMapper.one.AveYData;
-import DataMapper.one.CountYData;
-import DataMapper.one.YMax;
-import DataMapper.one.YMin;
 import java.io.File;
-import java.util.ArrayList;
 
 
 public class FlowMain {
